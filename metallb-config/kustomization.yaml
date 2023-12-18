@@ -1,0 +1,6 @@
+kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - bgp-advertisement.yaml
+  - bgp-peer.yaml
+  - address-pool.yaml
